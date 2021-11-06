@@ -6,6 +6,7 @@ module.exports = {
         sm: '40vh',
         md: '50vh',
         lg: '60vh',
+        lgx: '65',
         xl: '80vh',
     },
     extend: {},

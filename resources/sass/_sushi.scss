@@ -1,0 +1,41 @@
+.bg-image{
+
+    .overlay{
+                        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5b0807+0,cd3d2d+49,5b0807+100 */
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5b0807+0,cd3d2d+49,5b0807+100&0.76+0,0.79+98 */
+        background: -moz-linear-gradient(left,  rgba(91,8,7,0.76) 0%, rgba(205,61,45,0.78) 49%, rgba(95,10,8,0.79) 98%, rgba(91,8,7,0.79) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(91,8,7,0.76) 0%,rgba(205,61,45,0.78) 49%,rgba(95,10,8,0.79) 98%,rgba(91,8,7,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgba(91,8,7,0.76) 0%,rgba(205,61,45,0.78) 49%,rgba(95,10,8,0.79) 98%,rgba(91,8,7,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c25b0807', endColorstr='#c95b0807',GradientType=1 ); /* IE6-9 */
+        position: absolute;
+    }
+    background-image: url('../images/bg-sushi(1).png');
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+
+    img{
+        right: 40px;
+    }
+}
+
+h1{
+    font-family: $Title;
+}
+
+.sushi-dish{
+    height: 20vh;
+    background-color: rgb(26, 26, 26);
+    z-index: 1;
+    img{
+        position: relative;
+    }
+}
+
+body{
+    font-family: $body!important;
+}
+.welcome{
+    background-color: $black;
+}
