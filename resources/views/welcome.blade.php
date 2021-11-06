@@ -3,7 +3,7 @@
 @section('hero')
 <div class="bg-image xl:h-xl l:h-l md:h-md sm:none bg-cover">
     <div class="overlay h-full w-full xl:h-xl lg:h-l md:h-md sm:h-sm flex xl:flex-row flex-col xl:items-center">
-        <nav class="flex justify-between my-5 mx-5 w-full">
+        <nav class="flex justify-between my-5 mx-5 w-full pt-3">
 
             <div class="flex items-center gap-2">
                 <a href=""><div class="border border-solid p-2 rounded">
@@ -14,12 +14,12 @@
                 </div></a>
                 <h2  class="text-white text-xs uppercase">Carabobo, Valencia, El parral</h2>
             </div>
-            <div class="flex flex-col gap-10 pr-10">
+            <div class="flex flex-col gap-5 pr-10">
                 <h1 class="text-6xl text-white leading-4">Rolls</h1>
                 <h1 class="text-2xl text-white leading-4">Sushi Noodles</h1>
             </div>
             <div>
-                <div class="flex items-center gap-5 mr-7">
+                <div class="flex items-center gap-5 mr-4">
                     <a href="">
                         <img src="./svgs/twitterIcon.svg" alt="">
                     </a>
@@ -42,19 +42,23 @@
                 </div>
             </div>
         </nav>
-        <div class="chopsticks xl:hidden">
-            <img src="./images/chopsticks.png" alt="chopsticks" draggable="false" style="-moz-user-select: none;">
-        </div>
     </div>
 </div>
 @endsection
 @section('content')
     <div class="welcome">
-        <div class="container h-full flex flex-col py-12 mx-auto my-0 items-center">
-            <div class="flex flex-col justify-center z-10 text-center mt-31">
-                <p class="text-white font-light">We are</p>
-                <h1 class="text-white text-2xl">Rolls</h1>
-                <h1 class="text-red-600">Art of Sushi</h1>
+        <div class="container h-full flex flex-col py-12 mx-auto my-0">
+            <div class="dishes">
+
+            </div>
+            <div class="presentation items-center justify-items-center flex justify-center ">
+                <div class="h-5 border-red-600 border-t w-8 self-end mb-3 mr-2"></div>
+                <div class="flex flex-col justify-center z-10 text-center mt-16">
+                    <p class="font-light uppercase tracking-widest text-gray-300">We are</p>
+                    <h1 class="text-white text-4xl">Rolls</h1>
+                    <h1 class="text-red-600 text-xl">Art of Sushi</h1>
+                </div>
+                <div class="h-5 border-red-600 border-t w-8 self-end mb-3 ml-2"></div>
             </div>
         </div>
     </div>

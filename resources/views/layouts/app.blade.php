@@ -23,15 +23,16 @@
     @yield('hero')
     <div class="sushi-dish flex flex-row justify-evenly items-center w-full">
         <div class="menu flex items-center ml-3">
-            <div class="burger-nav flex flex-column items-center justify-between rounded bg-transparent border border-solid">
+            <div class="burger-nav flex flex-column items-center justify-between rounded bg-transparent border border-solid h-5">
                 <div class="bg-white h-1 w-2"></div>
                 <div class="bg-white h-1 w-2"></div>
                 <div class="bg-white h-1 w-2"></div>
             </div>
             <a href="#" class="text-white uppercase line p-3 text-xs tracking-widest">Menu</a>
         </div>
-        <div class="">
-            <img src="./images/sushi-dish.png" alt="Sushi Dish" draggable="false" style="-moz-user-select: none;">
+        <div class="flex justify-center items-center lg:mx-40 mx-auto lg:h-96">
+            <img src="./images/chopsticks.png" alt="chopsticks" draggable="false" style="-moz-user-select: none;" class="z-10 w-102">
+            <img src="./images/sushi-dish.png" alt="Sushi Dish" draggable="false" style="-moz-user-select: none;" class="rounded w-102">
         </div>
         <div class="mr-3 rounded text-white bg-transparent border border-solid uppercase p-3 text-xs tracking-widest hover:bg-white hover:text-black">
             <a>Let's Eat</a>

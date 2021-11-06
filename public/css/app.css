@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Ceviche+One&family=Raleway:wght@300;700&family=Roboto+Slab:wght@300;400;700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ceviche+One&family=Poppins:wght@100;400;500&display=swap);
 .bg-image {
   background-image: url("../images/bg-sushi(1).png");
   width: 100vw;
@@ -25,7 +24,7 @@
 }
 
 h1 {
-  font-family: "Gang of Three";
+  font-family: "Gang of Three", "Ceviche One", cursive;
 }
 
 .sushi-dish {
@@ -35,7 +34,7 @@ h1 {
 }
 
 .sushi-dish img {
-  position: relative;
+  position: absolute;
 }
 
 body {
@@ -44,6 +43,10 @@ body {
 
 .welcome {
   background-color: #161514;
+}
+
+.w-102 {
+  width: 30rem;
 }
 
 /* ! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
